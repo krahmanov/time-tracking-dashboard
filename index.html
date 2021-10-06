@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/images/favicon-32x32.png" type="image/png">
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Time Tracking Dashboard</title>
+  </head>
+  <body>
+    <h1 class="visually-hidden">Time Tracking Report for Jeremy Robson</h1>
+    <div class="dashboard-container">
+      <aside class="profile">
+        <div class="profile__info">
+          <img
+            src="images/image-jeremy.png"
+            alt="user photo"
+            class="profile__info-img"
+          />
+
+          <div class="profile__info-user">
+            <span class="profile__info-user-for">Report for</span>
+            <h2 class="profile__info-user-name">Jeremy Robson</h2>
+          </div>
+        </div>
+        <ul class="profile__navigation">
+          <li class="profile__navigation-item">
+            <a href="#daily" class="profile__navigtion-link">Daily</a>
+          </li>
+          <li class="profile__navigation-item active">
+            <a href="#weekly" class="profile__navigtion-link">Weekly</a>
+          </li>
+          <li class="profile__navigation-item">
+            <a href="#monthly" class="profile__navigtion-link">Monthly</a>
+          </li>
+        </ul>
+      </aside>
+      <main class="info-blocks">
+        <!-- Work -->
+        <div class="info-block work-block">
+          <div class="info-block__icon-wrapper">
+            <svg class="info-block__icon">
+              <use xlink:href="images/sprite.svg#icon-work"></use>
+            </svg>
+          </div>
+          <div class="info-block__content">
+            <div class="info-block__content-header">
+              <span class="info-block__content-title">Work</span>
+              <button class="info-block__content-btn">
+                <svg>
+                  <use xlink:href="images/sprite.svg#icon-ellipsis"></use>
+                </svg>
+              </button>
+            </div>
+            <div class="info-block__content-time">32hrs</div>
+            <span class="info_block__content-last-time">Last Week - 36hrs</span>
+          </div>
+        </div>
+        <!-- Play -->
+        <div class="info-block play-block">
+          <div class="info-block__icon-wrapper">
+            <svg class="info-block__icon">
+              <use xlink:href="images/sprite.svg#icon-play"></use>
+            </svg>
+          </div>
+          <div class="info-block__content">
+            <div class="info-block__content-header">
+              <span class="info-block__content-title">Play</span>
+              <button class="info-block__content-btn">
+                <svg>
+                  <use xlink:href="images/sprite.svg#icon-ellipsis"></use>
+                </svg>
+              </button>
+            </div>
+            <div class="info-block__content-time">10hrs</div>
+            <span class="info_block__content-last-time">Last Week - 8hrs</span>
+          </div>
+        </div>
+        <!-- Study -->
+        <div class="info-block study-block">
+          <div class="info-block__icon-wrapper">
+            <svg class="info-block__icon">
+              <use xlink:href="images/sprite.svg#icon-study"></use>
+            </svg>
+          </div>
+          <div class="info-block__content">
+            <div class="info-block__content-header">
+              <span class="info-block__content-title">Study</span>
+              <button class="info-block__content-btn">
+                <svg>
+                  <use xlink:href="images/sprite.svg#icon-ellipsis"></use>
+                </svg>
+              </button>
+            </div>
+            <div class="info-block__content-time">4hrs</div>
+            <span class="info_block__content-last-time">Last Week - 7hrs</span>
+          </div>
+        </div>
+        <!-- Exercise -->
+        <div class="info-block exercise-block">
+          <div class="info-block__icon-wrapper">
+            <svg class="info-block__icon">
+              <use xlink:href="images/sprite.svg#icon-exercise"></use>
+            </svg>
+          </div>
+          <div class="info-block__content">
+            <div class="info-block__content-header">
+              <span class="info-block__content-title">Exercise</span>
+              <button class="info-block__content-btn">
+                <svg>
+                  <use xlink:href="images/sprite.svg#icon-ellipsis"></use>
+                </svg>
+              </button>
+            </div>
+            <div class="info-block__content-time">4hrs</div>
+            <span class="info_block__content-last-time">Last Week - 5hrs</span>
+          </div>
+        </div>
+        <!-- Social -->
+        <div class="info-block social-block">
+          <div class="info-block__icon-wrapper">
+            <svg class="info-block__icon">
+              <use xlink:href="images/sprite.svg#icon-social"></use>
+            </svg>
+          </div>
+          <div class="info-block__content">
+            <div class="info-block__content-header">
+              <span class="info-block__content-title">Social</span>
+              <button class="info-block__content-btn">
+                <svg>
+                  <use xlink:href="images/sprite.svg#icon-ellipsis"></use>
+                </svg>
+              </button>
+            </div>
+            <div class="info-block__content-time">5hrs</div>
+            <span class="info_block__content-last-time">Last Week - 10hrs</span>
+          </div>
+        </div>
+        <!-- Self Care -->
+        <div class="info-block self-care-block">
+          <div class="info-block__icon-wrapper">
+            <svg class="info-block__icon">
+              <use xlink:href="images/sprite.svg#icon-self-care"></use>
+            </svg>
+          </div>
+          <div class="info-block__content">
+            <div class="info-block__content-header">
+              <span class="info-block__content-title">Self Care</span>
+              <button class="info-block__content-btn">
+                <svg>
+                  <use xlink:href="images/sprite.svg#icon-ellipsis"></use>
+                </svg>
+              </button>
+            </div>
+            <div class="info-block__content-time">2hrs</div>
+            <span class="info_block__content-last-time">Last Week - 2hrs</span>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

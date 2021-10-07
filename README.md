@@ -1,2 +1,8 @@
-# time-tracking-dashboard
- Time tracking dashboard challenge from Frontend Mentor
+# Time Tracking Dashboard
+
+## challenge from Frontend Mentor
+
+## :tada: Screenshots
+
+![header](./screenshot-desktop.png?raw=true)
+![header](./screenshot-tablet.png?raw=true)
